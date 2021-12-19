@@ -3,6 +3,7 @@ type: theme
 base theme: false
 description: Bootstrap Responsive Theme For Paxton
 package: Core
+core_version_requirement: ^8.8 || ^9
 # core: 9.x
 libraries:
   - paxton/global-css
@@ -10,6 +11,8 @@ libraries:
   - paxton/base
   - paxton/paxton-components
   - paxton/paxton-bootstrap
+  - paxton/slider
+  - paxton/custom
 regions:
   header: 'Header'
   primary_menu: 'Primary Menu'
